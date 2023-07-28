@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    border:0;
+
+  }
+  body{
+    overflow-x: hidden;
+  }
+.navbar{
+  margin:-10px;
+  font-size: 15px;
+ 
+}
+.nav1{
+  background-color: black;
+}
+.navbar-text a{
+color:white;
+text-decoration: none;
+}
+.nav-item{
+    padding:0 10px;
+}
+.headericon{
+  width:20px;
+  
+}
+.navbar-text1 {
+  width:15%;
+  
+}
+.collapse{
+  margin-left: 60px;
+
+}
+.navbar-text a:hover {
+  text-decoration: underline;
+  color:white;
+} 
+.navbar-text>img{
+  border: 0;
+}
+.saleimage{
+  margin-top: 10px;
+ background-image: url(sale-may-2023-desk.avif);
+ width:100%;
+ height: 80vh;
+ background-size:contain;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: center;
+  align-items: center;
+}
+
+
+.sale-heading{
+  color:white;
+font-size: 80px;
+font-family: RadiantCondICG;
+}
+
+  
+
+.griditems{
+ 
+}
+.itemimg img{
+  width:100%;
+  height:8cm;
+ cursor: pointer;
+}
+.griditemname{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:900;
+margin-left: 5px;
+}
+.grid1{
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  row-gap: 30px;
+  column-gap: 70px;
+}
+.griditems:hover{
+  transform: scale(1.05);
+  transition:.30s;
+  background-color: black;
+  border-radius: 10px;
+}
+.carousel{
+ width:25%;
+  
+  
+}
+.carousel-control-prev{
+  background-color: transparent;
+  
+}
+.carousel-control-next{
+  background-color: transparent;
+
+}
+.carouselsection{
+  margin: 50px 0 50px 0 ;
+  background-color: black;
+}
+.personaldetails{
+  text-align: center;
+}
+.personalinformation input{
+  margin-top: 10px;
+}
+.personalinformation{
+  background-color: lightgray;
+  padding-bottom: 10px;
+}
+.footerdetails{
+
+  margin:10px 10px 0 0;
+}
+.socialmediaicon img{
+width:10%;
+border-radius: 40px;
+}
+.socialmediaicon{
+  padding-left: 75%;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+.footer{
+  background-color: black;
+  color:white;
+  margin-top: 5px;
+}
+.heading:hover{
+  text-decoration: underline;
+}
+.cost{
+color:gray;
+margin-left: 5px;
+}
+
+.cartbutton {
+  width: 50px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: rgb(248, 243, 243);
+  cursor: pointer;
+}
+.carticon {
+width:35px;
+}
+h2{
+  margin-top: 40px;
+  text-align: center;
+}
+.worldofversace{
+  font-weight: bolder;
+}
+.heading{
+  cursor: pointer;
+  text-align: center;
+}
+.footer ul{
+  list-style: none;
+  margin-left: 10px;
+}
+
+.versacelogo{
+  
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.img2{
+  position: absolute;
+  top:0;
+  display: none;
+  width:100%;
+}
+.itemimg:hover .img2{
+  display: block;
+} 
+.griditems:hover .griditemname{
+  color:white;
+  
+}
+.griditems:hover .cost{
+  color: white;
+}
+.submitbtn{
+  justify-content: center;
+  margin-top: 10px;
+  height:50px;
+ 
+}
+.worldofversace{
+  font-family: RadiantCondICG;
+  font-size: 30px;
+}
+.submitbutton{
+  width:100px;
+  background: transparent;
+  border-radius: 25px;
+  
+}
+.submitbutton:hover{
+  background-color: black;
+  color:white;
+  transition: .30s;
+ 
+}
+
+.footer ul{
+  display: none;
+ 
+  }
+
+
+   @media (max-width:  600px){  
+   .grid1{  
+     grid-template-columns: 1fr 1fr ;
+  }  
+  .footer{
+    font-size:10px ;
+    justify-content: space-between;
+  }
+  .footer ul{
+    display: none;
+    }
+.socialmediaicon{
+  padding-right:100px;  
+}
+.socialmediaicon img{
+  width:70%;
+}}  
+
+
+
+
+@media (min-width:  1000px){ 
+  .grid1{  
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+  .footer ul{
+    display: block;
+  }
+  } 
+
